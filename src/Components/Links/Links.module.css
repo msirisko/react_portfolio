@@ -1,0 +1,26 @@
+.Links{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px 10px;
+}
+button{
+    background-color: black;
+    height: min-content;
+    width: min-content;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: Arial, Tahoma, serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}

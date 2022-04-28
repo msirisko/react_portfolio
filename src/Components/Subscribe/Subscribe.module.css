@@ -1,0 +1,8 @@
+.Subscribe{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.selection {
+    gap: 10px;
+}
