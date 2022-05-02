@@ -40,14 +40,14 @@ export default function ContactForm({ sendDataOnSubmit }) {
         <form onSubmit={onSubmit}>
             <h2>Hinterlasse mir <br/> eine Nachricht!</h2>
             <div>Name: </div>
-            <input
+            <input className={style.input}
                 name="name"
                 type="text"
                 value={name}
                 onChange={onNameChange}
             />
             <div>Email: </div>
-            <input
+            <input className={style.input}
                 label="Email"
                 name="email"
                 type="email"
@@ -55,7 +55,7 @@ export default function ContactForm({ sendDataOnSubmit }) {
                 onChange={onEmailChange}
             />
             <div>Betreff: </div>
-            <input
+            <input className={style.input}
                 name="subject"
                 type="text"
                 value={subject}
@@ -69,7 +69,7 @@ export default function ContactForm({ sendDataOnSubmit }) {
                 onChange={onMessageChange}
             />
             <br/>
-            <button>Absenden</button>
+            <button className={style.Send}>Absenden</button>
 
         </form>
             </div>

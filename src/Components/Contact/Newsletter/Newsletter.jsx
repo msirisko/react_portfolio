@@ -19,7 +19,7 @@ export default function Newsletter({ sendDataOnSubmit }){
             Abonniere jetzt meinen den Newsletter!
             <form onSubmit={onSubmit}>
 
-                <input
+                <input className={style.input}
                     label="Email"
                     name="email"
                     type="email"
@@ -27,7 +27,7 @@ export default function Newsletter({ sendDataOnSubmit }){
                     onChange={onEmailChange}
                     placeholder="Deine Email-Adresse"
                 />
-                <button>Bestellen</button>
+                <button className={style.Send}>Bestellen</button>
 
             </form>
         </div>
