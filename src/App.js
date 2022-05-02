@@ -3,10 +3,6 @@ import About from "./Components/About/About.jsx";
 import Info from "./Components/Info/Info.jsx";
 import Accordion from "./Components/Accordion/Accordion"
 import Links from "./Components/Links/Links.jsx";
-import ContactForm from "./Components/Contact/ContactForm/ContactForm";
-import {useState, useEffect} from "react";
-import {getAllContacts} from "./Components/Contact/ContactForm/ContactApiService";
-import {addContactToApi} from "./Components/Contact/ContactForm/ContactApiService";
 import Contact from "./Components/Contact/Contact";
 
 

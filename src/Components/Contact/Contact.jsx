@@ -3,6 +3,7 @@ import ContactForm from "./ContactForm/ContactForm";
 import {useState, useEffect} from "react";
 import {getAllContacts} from "./ContactForm/ContactApiService";
 import {addContactToApi} from "./ContactForm/ContactApiService";
+import Newsletter from "./Newsletter/Newsletter";
 
 export default function Contact(){
     const [contacts, setContacts] = useState([]);
@@ -24,7 +25,7 @@ export default function Contact(){
     return(
         <div className={style.Contact}>
             <ContactForm sendDataOnSubmit={addContact} />
-
+            <Newsletter sendDataOnSubmit={addContact}/>
         </div>
 
     )

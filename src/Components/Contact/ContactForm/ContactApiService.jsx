@@ -1,5 +1,4 @@
 
-
 export async function getAllContacts() {
     const httpResponse = await fetch('http://localhost:4000/contacts');
     const data = await httpResponse.json();

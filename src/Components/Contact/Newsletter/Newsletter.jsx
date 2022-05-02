@@ -1,0 +1,35 @@
+import style from "./Newsletter.module.css";
+import {useState} from "react";
+
+export default function Newsletter({ sendDataOnSubmit }){
+    const [email, setEmail] = useState("");
+    function onEmailChange(event) {
+        setEmail(event.target.value);
+    }
+    function onSubmit(event) {
+        event.preventDefault();
+        sendDataOnSubmit({
+            email: email,
+        });
+        setEmail("");
+    }
+
+    return(
+        <div className={style.Newsletter}>
+            Abonniere jetzt meinen den Newsletter!
+            <form onSubmit={onSubmit}>
+
+                <input
+                    label="Email"
+                    name="email"
+                    type="email"
+                    value={email}
+                    onChange={onEmailChange}
+                />
+                <button className={style.Send}>Absenden</button>
+
+            </form>
+        </div>
+
+    )
+}
