@@ -1,0 +1,13 @@
+.ContactForm{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+textarea{
+    resize: none;
+    width: 215px;
+    height: 100px;
+}
+.Send{
+    margin: auto;
+}

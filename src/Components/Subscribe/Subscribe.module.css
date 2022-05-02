@@ -1,8 +1,11 @@
 .Subscribe{
-    padding: 20px;
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 .selection {
     gap: 10px;
+}
+.frequency{
+    text-align: center;
 }

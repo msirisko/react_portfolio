@@ -1,9 +1,6 @@
 .list {
     margin: 15px;
 }
-input {
-    display: none;
-}
 
 label {
     display: block;
@@ -30,7 +27,6 @@ label:hover {
     font-size: 20px;
 }
 
-/* hier passt was noch nicht ganz. Evtl dann über props checked und unchecked unterscheiden */
 
 input + label + .content {
     display: none;
@@ -38,4 +34,5 @@ input + label + .content {
 
 input:checked + label + .content {
     display: block;
+    border: none;
 }
