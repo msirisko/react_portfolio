@@ -69,7 +69,7 @@ export default function ContactForm({ sendDataOnSubmit }) {
                 onChange={onMessageChange}
             />
             <br/>
-            <button className={style.Send}>Absenden</button>
+            <button>Absenden</button>
 
         </form>
             </div>

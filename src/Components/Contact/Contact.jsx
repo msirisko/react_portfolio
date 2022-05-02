@@ -1,4 +1,4 @@
-import style from "./ContactForm/ContactForm.module.css";
+import style from "./Contact.module.css";
 import ContactForm from "./ContactForm/ContactForm";
 import {useState, useEffect} from "react";
 import {getAllContacts} from "./ContactForm/ContactApiService";

@@ -25,8 +25,9 @@ export default function Newsletter({ sendDataOnSubmit }){
                     type="email"
                     value={email}
                     onChange={onEmailChange}
+                    placeholder="Deine Email-Adresse"
                 />
-                <button className={style.Send}>Absenden</button>
+                <button>Bestellen</button>
 
             </form>
         </div>
