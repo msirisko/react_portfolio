@@ -1,13 +1,12 @@
-.ContactForm{
+.Contact{
     display: flex;
-    justify-content: center;
-    margin: 50px;
+    flex-direction: column;
+    font-size: 22px;
 }
-textarea{
-    resize: none;
-    width: 215px;
-    height: 100px;
-}
-.Send{
-    margin: auto;
+
+@media only screen and (min-width: 768px) {
+    .Contact {
+        display: flex;
+        flex-direction: row;
+    }
 }

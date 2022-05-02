@@ -13,6 +13,9 @@ label {
     transition: ease .5s;
     font-size: 20px;
 }
+.Checkbox{
+    display: none;
+}
 
 label:hover {
     background: grey;

@@ -1,14 +1,11 @@
 import style from "./Accordion.module.css";
-import {useState} from "react";
-
 
 export default function Accordion(){
-    const [checked, setChecked] = useState(false);
+
     return(
         <div className={style.Accordion}>
             <div className={style.list}>
-                <input style={{display: "none"}} name="checked" type="checkbox" checked={checked}
-                       onChange={e => setChecked(!checked)}  id="title1"/>
+                <input className={style.Checkbox} type="checkbox" id="title1"/>
                 <label htmlFor="title1">Wer bin ich?</label>
 
                 <div className={style.content}>
@@ -16,7 +13,7 @@ export default function Accordion(){
                         bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich.</p>
                 </div>
 
-                <input style={{display: "none"}} type="checkbox" id="title2"/>
+                <input className={style.Checkbox} type="checkbox" id="title2"/>
                 <label htmlFor="title2">Was mache ich?</label>
 
                 <div className={style.content}>
@@ -24,14 +21,14 @@ export default function Accordion(){
                         Fülltexten.</p>
                 </div>
 
-                <input style={{display: "none"}} type="checkbox" id="title3"/>
+                <input className={style.Checkbox} type="checkbox" id="title3"/>
                 <label htmlFor="title3">Wie mache ich es?</label>
 
                 <div className={style.content}>
                     <p>Jetzt fällt mir tatsächlich langsam gar nichts mehr ein, was ich noch
                         schreiben könnte...</p>
                 </div>
-                <input style={{display: "none"}} type="checkbox" id="title4"/>
+                <input className={style.Checkbox} type="checkbox" id="title4"/>
                 <label htmlFor="title4">Was ist meine Motivation?</label>
 
                 <div className={style.content}>

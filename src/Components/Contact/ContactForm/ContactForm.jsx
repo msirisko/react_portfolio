@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from "./Contact.module.css"
+import style from "./ContactForm.module.css"
 
 export default function ContactForm({ sendDataOnSubmit }) {
     const [name, setName] = useState("");
