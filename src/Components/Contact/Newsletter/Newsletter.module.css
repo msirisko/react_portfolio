@@ -8,6 +8,3 @@
     text-decoration: underline;
     text-decoration-color: white;
 }
-.input:focus{
-    outline: none;
-}

@@ -6,7 +6,7 @@ export default function Accordion(){
         <div className={style.Accordion}>
             <div className={style.list}>
                 <input className={style.Checkbox} type="checkbox" id="title1"/>
-                <label htmlFor="title">Wer bin ich?</label>
+                <label htmlFor="title1">Wer bin ich?</label>
 
                 <div className={style.content}>
                     <p>Ich bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich, bin ich,
@@ -14,7 +14,7 @@ export default function Accordion(){
                 </div>
 
                 <input className={style.Checkbox} type="checkbox" id="title2"/>
-                <label htmlFor="title">Was mache ich?</label>
+                <label htmlFor="title2">Was mache ich?</label>
 
                 <div className={style.content}>
                     <p>Ich fülle besonders gerne und mit unbändiger Freude Textfelder mit
@@ -22,14 +22,14 @@ export default function Accordion(){
                 </div>
 
                 <input className={style.Checkbox} type="checkbox" id="title3"/>
-                <label htmlFor="title">Wie mache ich es?</label>
+                <label htmlFor="title3">Wie mache ich es?</label>
 
                 <div className={style.content}>
                     <p>Jetzt fällt mir tatsächlich langsam gar nichts mehr ein, was ich noch
                         schreiben könnte...</p>
                 </div>
                 <input className={style.Checkbox} type="checkbox" id="title4"/>
-                <label htmlFor="title">Was ist meine Motivation?</label>
+                <label htmlFor="title4">Was ist meine Motivation?</label>
 
                 <div className={style.content}>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
