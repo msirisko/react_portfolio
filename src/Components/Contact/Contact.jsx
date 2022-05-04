@@ -1,21 +1,11 @@
 import style from "./Contact.module.css";
 import ContactForm from "./ContactForm/ContactForm";
-import {useState, useEffect} from "react";
-import {getAllContacts} from "./ContactForm/ContactApiService";
+import {useState} from "react";
 import {addContactToApi} from "./ContactForm/ContactApiService";
 import Newsletter from "./Newsletter/Newsletter";
 
 export default function Contact(){
     const [contacts, setContacts] = useState([]);
-
-    useEffect(function () {
-        loadContacts();
-    }, []);
-
-    async function loadContacts() {
-        const apiContacts = await getAllContacts();
-        setContacts(apiContacts);
-    }
 
     function addContact(contact) {
         setContacts([contact, ...contacts]);
