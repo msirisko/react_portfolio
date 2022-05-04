@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.f6932390.css",
-    "main.js": "/react_portfolio/static/js/main.39e60aad.js",
+    "main.css": "/react_portfolio/static/css/main.ed1127e3.css",
+    "main.js": "/react_portfolio/static/js/main.3a162e38.js",
     "static/js/787.a86f3764.chunk.js": "/react_portfolio/static/js/787.a86f3764.chunk.js",
     "static/media/Banner.jpg": "/react_portfolio/static/media/Banner.9e57a13b928b172ae764.jpg",
     "static/media/MS_AG_Sedding.jpg": "/react_portfolio/static/media/MS_AG_Sedding.ec037724c9fcc21f442f.jpg",
     "index.html": "/react_portfolio/index.html",
-    "main.f6932390.css.map": "/react_portfolio/static/css/main.f6932390.css.map",
-    "main.39e60aad.js.map": "/react_portfolio/static/js/main.39e60aad.js.map",
+    "main.ed1127e3.css.map": "/react_portfolio/static/css/main.ed1127e3.css.map",
+    "main.3a162e38.js.map": "/react_portfolio/static/js/main.3a162e38.js.map",
     "787.a86f3764.chunk.js.map": "/react_portfolio/static/js/787.a86f3764.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6932390.css",
-    "static/js/main.39e60aad.js"
+    "static/css/main.ed1127e3.css",
+    "static/js/main.3a162e38.js"
   ]
 }
